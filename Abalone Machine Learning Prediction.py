@@ -283,8 +283,8 @@ pickle.dump(scaler,open('scaling.pkl','wb'))
 # In[ ]:
 
 
-X = scaled_data[[Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight',
-       'Viscera weight', 'Shell weight', 'Sex_code',]]
+X = scaled_data['Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight',
+       'Viscera weight', 'Shell weight', 'Sex_code']
 
 y = scaled_data["type_code"]
 
